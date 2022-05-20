@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo" />
+            </div>
+            <ul>
+                <li>БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+            <button class="logInBtn">ВОЙТИ</button>
+        </nav>
+
+
+        
+            <main>
+                <div class="main">
+                <h1>Конвертер валют онлайн</h1>
+                <div class="convertBoxes">
+                    <div class="box">
+                        <h4>У меня есть</h4>
+                        <div class="boxBtns" id="leftBoxBtns">
+                            <button class="btn active" value="RUB">RUB</button>
+                            <button class="btn" value="USD">USD</button>
+                            <button class="btn" value="EUR">EUR</button>
+                            <button class="btn" value="GBP">GBP</button>
+                        </div>
+                        <div class="input-section">
+                            <input type="text" value="5 000" id="leftInput" />
+                            <p id="leftP"></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>Хочу приобрести</h4>
+                        <div class="boxBtns" id="rightBoxBtns">
+                            <button class="btns" value="RUB">RUB</button>
+                            <button class="btns active" value="USD">USD</button>
+                            <button class="btns" value="EUR">EUR</button>
+                            <button class="btns" value="GBP">GBP</button>
+                        </div>
+                        <div class="input-section">
+                            <input type="text" value="" id="rightInput" />
+                            <p id="rightP"></p>
+                        </div>
+                    </div>
+                </div>
+
+                 </div>
+            </main>
+       
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
